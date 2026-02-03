@@ -21,7 +21,8 @@
             Console.WriteLine("Section B: Do-while Loop Practrice");
 
             Console.WriteLine("\n");
-
+            /*A do loop executes at least one or more times because
+             the loop evaluates the expression after each execution*/
             int attempt = 1;
 
             do
@@ -30,6 +31,8 @@
                 attempt++; 
             }
             while (attempt <= 3); // should exit loop once int is equal to 3
+
+
         }
     }
 }
