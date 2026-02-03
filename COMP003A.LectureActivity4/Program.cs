@@ -32,6 +32,14 @@
             }
             while (attempt <= 3); // should exit loop once int is equal to 3
 
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Section C: for Loop Practice");
+
+            Console.WriteLine("\n");
+
+
+
 
         }
     }
