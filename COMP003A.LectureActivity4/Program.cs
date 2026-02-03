@@ -6,7 +6,7 @@
         {
             int taskNumber = 1;
 
-            Console.WriteLine("Section A: While Loop Practice");
+            Console.WriteLine("Section A: While Loop Practice:");
 
             Console.WriteLine("\n");
             // while loop going through numbers 1 to 5 to display task that has been completed
@@ -18,7 +18,7 @@
 
             Console.WriteLine("\n");
 
-            Console.WriteLine("Section B: Do-while Loop Practrice");
+            Console.WriteLine("Section B: Do-while Loop Practrice:");
 
             Console.WriteLine("\n");
             /*A do loop executes at least one or more times because
@@ -34,7 +34,7 @@
 
             Console.WriteLine("\n");
 
-            Console.WriteLine("Section C: for Loop Practice");
+            Console.WriteLine("Section C: for Loop Practice:");
 
             Console.WriteLine("\n");
             // for loops are great for tasks that require a known number of repititions, instead of condition like a while loop
@@ -42,6 +42,12 @@
             {
                 Console.WriteLine($"Step {x}");
             }
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Section D: Loop Control 'break' and 'continue':");
+
+            Console.WriteLine("\n");
         }
     }
 }
