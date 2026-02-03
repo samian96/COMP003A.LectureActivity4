@@ -66,6 +66,16 @@
                 }
                 Console.WriteLine(number);
             }
+            /*The easiest loop type for me would have to be the while loop, 
+             only because of using them in JavaScript in my previous semester*/
+
+            /*The most careful tracing in my opinion would have to be the while 
+             loop using loop controls like break and continue, I was not fully sure
+            how to achieve displaying 1 without setting the int to 0*/
+
+            /*The comments always help me understand what the purpose of the loop is
+             as well as whyh it is there. I can see how loops without any comments could
+            lead to confusing logic.*/
         }
     }
 }
