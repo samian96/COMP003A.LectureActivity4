@@ -11,12 +11,21 @@
             while (taskNumber <= 5)
             {
                 Console.WriteLine($"Task {taskNumber} completed");
-                taskNumber++;
+                taskNumber++; // increases int by 1
             }
 
             Console.WriteLine("\n");
 
             Console.WriteLine("Section B: Do-while Loop Practrice");
+
+            int attempt = 1;
+
+            do
+            {
+                Console.WriteLine($"Attempt {attempt} ");
+                attempt++; 
+            }
+            while (attempt <= 3); // should exit loop once int is equal to 3
         }
     }
 }
