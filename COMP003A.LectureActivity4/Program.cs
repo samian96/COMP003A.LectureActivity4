@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int taskNumber = 1;
+            // while loop going through numbers 1 to 5 to display task that has been completed
+            while (taskNumber <= 5)
+            {
+                Console.WriteLine($"Task {taskNumber} completed");
+                taskNumber++;
+            }
         }
     }
 }
