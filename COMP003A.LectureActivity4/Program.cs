@@ -7,6 +7,8 @@
             int taskNumber = 1;
 
             Console.WriteLine("Section A: While Loop Practice");
+
+            Console.WriteLine("\n");
             // while loop going through numbers 1 to 5 to display task that has been completed
             while (taskNumber <= 5)
             {
@@ -17,6 +19,8 @@
             Console.WriteLine("\n");
 
             Console.WriteLine("Section B: Do-while Loop Practrice");
+
+            Console.WriteLine("\n");
 
             int attempt = 1;
 
