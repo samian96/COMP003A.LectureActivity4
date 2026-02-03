@@ -48,6 +48,24 @@
             Console.WriteLine("Section D: Loop Control 'break' and 'continue':");
 
             Console.WriteLine("\n");
+            /* when int number was set to 1 it would skip and go straight to 2
+             Not sure if problem in my logic please let me know*/
+            int number = 0;
+
+            while (number <= 6)
+            {
+                number++;
+
+                if (number == 4)
+                {
+                    continue;
+                }
+                if (number == 6)
+                {
+                    break;
+                }
+                Console.WriteLine(number);
+            }
         }
     }
 }
