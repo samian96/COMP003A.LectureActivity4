@@ -37,10 +37,11 @@
             Console.WriteLine("Section C: for Loop Practice");
 
             Console.WriteLine("\n");
-
-
-
-
+            // for loops are great for tasks that require a known number of repititions, instead of condition like a while loop
+            for (int x = 1; x <= 5; x++)
+            {
+                Console.WriteLine($"Step {x}");
+            }
         }
     }
 }
